@@ -1,0 +1,7 @@
+# dir
+venv/
+__pycache__/
+.idea/
+
+# file
+env.bat
