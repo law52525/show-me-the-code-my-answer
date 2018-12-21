@@ -19,7 +19,7 @@ def run_spider(url):
 if __name__ == '__main__':
     start = time.time()
     r = requests.get("http://tieba.baidu.com/p/5400710584")
-    results = re.findall('<div.*?<img class="BDE_Image".*?src="(.*?)"', r.text, re.S)
+    results = re.findall('<img class="BDE_Image".*?src="(.*?)"', r.text, re.S)
 
     pool = gevent.pool.Pool(20)
     threads = []
