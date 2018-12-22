@@ -16,7 +16,7 @@ def run_spider(url):
         f.write(requests.get(url).content)
 
 
-if __name__ == '__main__':
+def main():
     start = time.time()
     r = requests.get("http://tieba.baidu.com/p/5400710584")
     results = re.findall('<img class="BDE_Image".*?src="(.*?)"', r.text, re.S)
@@ -27,3 +27,7 @@ if __name__ == '__main__':
         threads.append(pool.spawn(run_spider, result))
     gevent.joinall(threads)
     print(time.time() - start)
+
+
+if __name__ == '__main__':
+    main()
