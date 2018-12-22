@@ -7,12 +7,8 @@ if __name__ == '__main__':
     students = json.loads(s)
     book = xlwt.Workbook()
     sheet = book.add_sheet('student')
-    i = 0
-    for k, v in students.items():
+    for i, k in enumerate(students.keys()):
         sheet.write(i, 0, k)
-        j = 1
-        for l in v:
-            sheet.write(i, j, l)
-            j += 1
-        i += 1
+        for j, l in enumerate(students[k]):
+            sheet.write(i, j+1, l)
     book.save('student.xls')
