@@ -7,5 +7,5 @@ if __name__ == '__main__':
     a = {r: 0 for r in results}
     for r in results:
         a[r] += 1
-    for v in sorted(zip(a.values(), a.keys()), reverse=True):
-        print("{}: {}".format(v[1], v[0]))
+    for v in sorted(a.items(), key=lambda x: x[1], reverse=True):
+        print("{}: {}".format(v[0], v[1]))
