@@ -16,7 +16,7 @@ def run_spider(url):
         f.write(requests.get(url).content)
 
 
-def main():
+def run():
     start = time.time()
     r = requests.get("http://tieba.baidu.com/p/5400710584")
     results = re.findall('<img class="BDE_Image".*?src="(.*?)"', r.text, re.S)
@@ -30,4 +30,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    run()
