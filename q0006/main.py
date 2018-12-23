@@ -19,4 +19,4 @@ def filter_words(t):
 
 if __name__ == '__main__':
     for file in os.listdir(diary_path):
-        print(*filter(filter_words, main(diary_path + os.sep + file)).__next__())
+        print(*next(filter(filter_words, main(diary_path + os.sep + file))))
