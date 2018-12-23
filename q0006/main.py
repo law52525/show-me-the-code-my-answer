@@ -19,4 +19,5 @@ def filter_words(t):
 
 if __name__ == '__main__':
     for file in os.listdir(diary_path):
-        print(*next(filter(filter_words, main(diary_path + os.sep + file))))
+        path = diary_path + os.sep + file
+        print(*next(filter(filter_words, main(path))))
