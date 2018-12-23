@@ -20,3 +20,5 @@
 </li>
 
 我的实现：https://github.com/law52525/flask_tutorial
+
+![Flaskr](kissliang.me_8080_.png)
