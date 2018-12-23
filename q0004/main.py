@@ -8,10 +8,9 @@ def main(filename):
     a = {r: 0 for r in results}
     for r in results:
         a[r] += 1
-    return a
+    return sorted(a.items(), key=lambda x: x[1], reverse=True)
 
 
 if __name__ == '__main__':
-    a = main('data.txt')
-    for v in sorted(a.items(), key=lambda x: x[1], reverse=True):
+    for v in main('data.txt'):
         print("{}: {}".format(v[0], v[1]))
