@@ -13,4 +13,4 @@ def main(filename):
 
 if __name__ == '__main__':
     for v in main('data.txt'):
-        print("{}: {}".format(v[0], v[1]))
+        print("{}: {}".format(*v))
