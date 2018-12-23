@@ -1,10 +1,8 @@
-import random
-
-
 def activation_codes(n=200):
     def random_char(number=16):
         for i in range(number):
-            yield chr(random.choice(list(range(65, 90 + 1)) + list(range(97, 122 + 1)) + list(range(48, 57 + 1))))
+            from q0010.main import random_char
+            yield random_char()
 
     def factory():
         a = ""
