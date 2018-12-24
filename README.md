@@ -1,8 +1,6 @@
 ## Python 练习册，每天一个小程序
 
 **Python3实现**
-**Python3实现**
-**Python3实现**
 
 > Talk is cheap. Show me the code.--Linus Torvalds
 
