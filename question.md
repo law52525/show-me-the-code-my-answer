@@ -101,7 +101,7 @@
 
 ![numbers.xls](http://i.imgur.com/iuz0Pbv.png)
 
-**第 0017 题：** 将 第 0014 题中的 student.xls 文件中的内容写到 student.xml 文件中，如
+~~**第 0017 题：** 将 第 0014 题中的 student.xls 文件中的内容写到 student.xml 文件中，如~~
 
 下所示：
 
@@ -122,7 +122,7 @@
 
 - [阅读资料](http://www.cnblogs.com/skynet/archive/2013/05/06/3063245.html) 腾讯游戏开发 xml 和 Excel 相互转换
 
-**第 0018 题：** 将 第 0015 题中的 city.xls 文件中的内容写到 city.xml 文件中，如下所示：
+~~**第 0018 题：** 将 第 0015 题中的 city.xls 文件中的内容写到 city.xml 文件中，如下所示：~~
 
     <?xmlversion="1.0" encoding="UTF-8"?>
     <root>
@@ -138,7 +138,7 @@
     </citys>
     </root>
 
-**第 0019 题：** 将 第 0016 题中的 numbers.xls 文件中的内容写到 numbers.xml 文件中，如下
+~~**第 0019 题：** 将 第 0016 题中的 numbers.xls 文件中的内容写到 numbers.xml 文件中，如下~~
 
 所示：
 
