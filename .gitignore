@@ -7,3 +7,4 @@ __pycache__/
 env.bat
 *.xlsx
 voice.wav
+test.py
