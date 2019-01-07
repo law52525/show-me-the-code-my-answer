@@ -1,5 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
-<root><students><student id="1"><name>张三</name><math>150.0</math><chinese>120.0</chinese><english>100.0</english></student>
-<student id="2"><name>李四</name><math>90.0</math><chinese>99.0</chinese><english>95.0</english></student>
-<student id="3"><name>王五</name><math>60.0</math><chinese>66.0</chinese><english>68.0</english></student>
-</students></root>
+<root>
+<students>
+<student id="1">
+<name>张三</name>
+<math>150.0</math>
+<chinese>120.0</chinese>
+<english>100.0</english>
+</student>
+<student id="2">
+<name>李四</name>
+<math>90.0</math>
+<chinese>99.0</chinese>
+<english>95.0</english>
+</student>
+<student id="3">
+<name>王五</name>
+<math>60.0</math>
+<chinese>66.0</chinese>
+<english>68.0</english>
+</student>
+</students>
+</root>

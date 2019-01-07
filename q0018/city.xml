@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<root><cities><city id="1">上海</city>
+<root>
+<cities>
+<city id="1">上海</city>
 <city id="2">北京</city>
 <city id="3">成都</city>
-</cities></root>
+</cities>
+</root>
